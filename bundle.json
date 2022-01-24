@@ -1,0 +1,32 @@
+{
+    "name": "@ohos/distributedschedule_safwk_lite",
+    "description": "system ability framework",
+    "homePage": "https://gitee.com/openharmony",
+    "version": "3.1",
+    "license": "Apache License 2.0",
+    "repository": "https://gitee.com/openharmony/distributedschedule_safwk_lite",
+    "publishAs": "code-segment",
+    "segment": {
+        "destPath": "foundation/distributedschedule/safwk_lite"
+    },
+    "dirs": {},
+    "scripts": {},
+    "component": {
+        "name": "safwk_lite",
+        "subsystem": "distributedschedule",
+        "adapted_system_type": [
+            "small"
+        ],
+        "rom": "",
+        "ram": "",
+        "deps": {
+            "components": [],
+            "third_party": []
+        },
+        "build": {
+            "sub_component": [
+                "//foundation/distributedschedule/safwk_lite:foundation"
+            ]
+        }
+    }
+}
