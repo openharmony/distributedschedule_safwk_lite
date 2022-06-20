@@ -26,8 +26,8 @@
         "deps": {
             "components": [
                 "utils_base",
+                "bundle_framework_lite",
                 "ability_lite",
-                "appexecfwk_lite",
                 "hilog",
                 "permission",
                 "dmsfwk_lite",
