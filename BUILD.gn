@@ -45,8 +45,8 @@ if (ohos_kernel_type == "liteos_a" || ohos_kernel_type == "linux") {
       "//base/hiviewdfx/hilog_lite/frameworks/featured:hilog_shared",
       "//base/powermgr/battery_lite:batterymgr_lite",
       "//base/powermgr/powermgr_lite:powermgr_lite",
-      "//base/security/permission/services/permission_lite/ipc_auth:ipc_auth_target",
-      "//base/security/permission/services/permission_lite/pms:pms_target",
+      "//base/security/permission_lite/services/ipc_auth:ipc_auth_target",
+      "//base/security/permission_lite/services/pms:pms_target",
       "//foundation/distributedschedule/samgr_lite/samgr_server:server",
     ]
     if (enable_timertask == true) {
