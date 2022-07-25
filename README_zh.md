@@ -51,8 +51,8 @@ deps = [
   "${aafwk_lite_path}/services/abilitymgr_lite:abilityms",
   "${appexecfwk_lite_path}/services/bundlemgr_lite:bundlems",
   "//base/hiviewdfx/hilog_lite/frameworks/featured:hilog_shared",
-  "//base/security/permission/services/permission_lite/ipc_auth:ipc_auth_target",
-  "//base/security/permission/services/permission_lite/pms:pms_target",
+  "//base/security/permission_lite/services/ipc_auth:ipc_auth_target",
+  "//base/security/permission_lite/services/pms:pms_target",
   "//foundation/ability/dmsfwk_lite:dtbschedmgr",
   "//foundation/distributedschedule/samgr_lite/samgr_server:server",
 ]
