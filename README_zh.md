@@ -1,13 +1,24 @@
-# 介绍<a name="ZH-CN_TOPIC_0000001081445008"></a>
+公告：
+因OpenHarmony部件设计规范化需求，2022.08月起distributedschedule_safwk_lite仓库更名为systemabilitymgr_safwk_lite，本仓库归档不在维护。
+请前往[**systemabilitymgr\_safwk_lite**](https://gitee.com/openharmony/systemabilitymgr_safwk_lite)仓库，了解最新代码信息
+# 轻量级系统服务框架部件<a name="ZH-CN_TOPIC_0000001081445008"></a>
 
 -   [简介](#section11660541593)
 -   [目录](#section1464106163817)
 -   [使用](#section10729231131110)
--   [涉及仓](#section176111311166)
+-   [相关仓](#section176111311166)
 
 ## 简介<a name="section11660541593"></a>
 
 safwklite模块负责提供基础服务运行的空进程。
+
+## 系统架构<a name="section342962219551"></a>
+
+**图 1**  面向服务的架构
+
+
+![](figures/zh-cn_image_0000001128146921.png)
+
 
 ## 目录<a name="section1464106163817"></a>
 
@@ -58,9 +69,14 @@ deps = [
 ]
 ```
 
-## 涉及仓<a name="section176111311166"></a>
+## 相关仓<a name="section176111311166"></a>
 
-**[分布式任务调度子系统](zh-cn_topic_0000001115719369.md)**
+系统服务管理子系统
 
-[safwk\_lite](https://gitee.com/openharmony/distributedschedule_services_safwk_lite)
+[distributedschedule\_safwk](https://gitee.com/openharmony/distributedschedule_safwk)
 
+[distributedschedule\_samgr](https://gitee.com/openharmony/distributedschedule_samgr)
+
+[**distributedschedule\_safwk\_lite**](https://gitee.com/openharmony/distributedschedule_safwk_lite)
+
+[distributedschedule\_samgr\_lite](https://gitee.com/openharmony/distributedschedule_samgr_lite)
