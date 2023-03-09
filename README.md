@@ -1,13 +1,23 @@
-# safwk\_lite<a name="EN-US_TOPIC_0000001081445008"></a>
+**NOTICE**
 
--   [Introduction](#section11660541593)
--   [Directory Structure](#section1464106163817)
--   [Usage](#section10729231131110)
--   [Repositories Involved](#section176111311166)
+The distributedschedule_safwk_lite repository is renamed systemabilitymgr_safwk_lite since August 2022. The distributedschedule_safwk_lite repository is archived and no longer maintained.
+
+To obtain the latest code, go to [**systemabilitymgr\_safwk_lite**](https://gitee.com/openharmony/systemabilitymgr_safwk_lite).
+
+# safwk\_lite<a name="ZH-CN_TOPIC_0000001081445008"></a>
+
 
 ## Introduction<a name="section11660541593"></a>
 
 The  **safwk\_lite**  module provides an empty process for running basic services.
+
+## Architecture<a name="section342962219551"></a>
+
+**Figure 1** Service-oriented architecture
+
+
+![](figures/en-us_image_0000001128146921.png)
+
 
 ## Directory Structure<a name="section1464106163817"></a>
 
@@ -60,7 +70,12 @@ deps = [
 
 ## Repositories Involved<a name="section176111311166"></a>
 
-[Distributed Scheduler subsystem](en-us_topic_0000001115719369.md)
+safwk
 
-**[safwk\_lite](https://gitee.com/openharmony/distributedschedule_services_safwk_lite)**
+[distributedschedule\_safwk](https://gitee.com/openharmony/distributedschedule_safwk)
 
+[distributedschedule\_samgr](https://gitee.com/openharmony/distributedschedule_samgr)
+
+[**distributedschedule\_safwk\_lite**](https://gitee.com/openharmony/distributedschedule_safwk_lite)
+
+[distributedschedule\_samgr\_lite](https://gitee.com/openharmony/distributedschedule_samgr_lite)
